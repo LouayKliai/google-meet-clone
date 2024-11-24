@@ -1,0 +1,70 @@
+.flexbox{
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+.navbar{
+  display:flex;
+  justify-content:space-between;  
+  /* background-color: aqua; */
+  width: 100%;  
+}
+.right_bar{
+  display: flex;
+  gap: 15px;
+  
+}
+
+.left_bar{
+  display: flex;
+  align-items: center;
+  gap: 5px;;
+}
+.foot_bar{    
+  width: 100%;
+  
+}
+.main{
+  display: flex;  
+  justify-content:space-around;    
+  width: 100%;
+  align-items: center;
+  
+}
+body{
+  margin: 0%;
+}
+
+.new_meet{  
+  display:flex; 
+  align-items: center;
+  border-radius: 10px; 
+  color: white;  
+  gap: 10px;
+  background-color: blue;   
+}
+.meets{
+  display:flex;  
+  gap: 10px;
+  border-radius: 10px;
+}
+.saisie_url{
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  border: 1px solid grey;
+}
+.saisie_url input {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 8px;
+  background: transparent; /* Fond transparent pour l'input */
+}
+
+.saisie_url:focus-within {
+  border: 2px solid #007BFF; /* Bordure visible lorsque l'input est en focus */
+}
